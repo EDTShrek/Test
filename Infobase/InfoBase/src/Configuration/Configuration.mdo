@@ -39,4 +39,5 @@
   <documents>Document.ДокументПродажи</documents>
   <documents>Document.Document1</documents>
   <documents>Document.Document2</documents>
+  <tasks>Task.ПерерасчетСуммыДокументаПриИзменении</tasks>
 </mdclass:Configuration>
