@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d4c7b11-d8d1-477d-a65d-9af83637b2e7">
+  <producedTypes>
+    <objectType typeId="72577d3a-13cb-4465-8509-27ce9cfba4e6" valueTypeId="cc5415a0-c8c0-4cb5-8cfd-3a8f95012783"/>
+    <refType typeId="151ee098-1563-4970-a9c3-9c205037edc5" valueTypeId="7cfce1b3-a4db-42bc-a45a-545eb7d5dde3"/>
+    <selectionType typeId="6536e392-b0ae-476c-94fc-0e49cbf8ab29" valueTypeId="93c9006f-787a-456e-b352-741a64b8e86e"/>
+    <listType typeId="97984c48-f1c7-4316-ae0a-201564239726" valueTypeId="07979f8c-a573-4176-8147-7b72ef1c9472"/>
+    <managerType typeId="5c9c6aaf-b8df-454c-9c51-861b93d28c4b" valueTypeId="611b27ff-f451-41c3-b90c-b71f74349557"/>
+  </producedTypes>
+  <name>ПерерасчетСуммыДокументаПриИзменении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перерасчет суммы документа при изменении</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ПерерасчетСуммыДокументаПриИзменении.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ПерерасчетСуммыДокументаПриИзменении.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>
